@@ -13,7 +13,7 @@ class CalculatorTest extends TestCase
     }
     public function testAdds(){
         $this->calculator = new Calculator();
-        $result = $this->calculator->adds(2);
+        $result = $this->calculator->adds(2+1);
 
     	$this->assertEquals($result,2);
     }
