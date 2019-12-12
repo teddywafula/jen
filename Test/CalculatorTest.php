@@ -8,12 +8,12 @@ class CalculatorTest extends TestCase
     {
         $this->calculator = new Calculator();
         $result = $this->calculator->add(1, 2);
-        $this->assertEquals(3, $result);
-        $this->assertEquals(1,1);
+        $this->assertEquals(3+1, $result);
+        //$this->assertEquals(1,1);
     }
     public function testAdds(){
         $this->calculator = new Calculator();
-        $result = $this->calculator->adds(2+1);
+        $result = $this->calculator->adds(2);
 
     	$this->assertEquals($result,2);
     }
